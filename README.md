@@ -17,4 +17,4 @@ However, there are some limitations with this approach, such as scalability. The
 
 Click on the thumbnail to play the demo!
 
-[[![Watch the Demo](crypto_v1.jpg)(https://youtu.be/s8rnK1Yp4-8)]
+[![Watch the Demo](crypto_v1.jpg)](https://youtu.be/s8rnK1Yp4-8)
