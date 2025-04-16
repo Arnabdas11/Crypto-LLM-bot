@@ -192,7 +192,7 @@ class CryptoAssistant():
             return "No info for this crypto coin found"
         else:
             payload = {
-                "secret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjdmOTc1OWM4MDZmZjE2NTFlNGM5YzJiIiwiaWF0IjoxNzQ0NDAyNTYwLCJleHAiOjMzMjQ4ODY2NTYwfQ.79ecFpLjuufvSrSIFfyR6m0FjYXWIoEAbGlTCXrGaOQ",
+                "secret": os.environ.get("TAAPI_API_KEY"),
                 "construct": {
                     "exchange": "binance",
                     "symbol": f"{coin_symbol}/USDT",
